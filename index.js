@@ -51,11 +51,25 @@ let metricText = document.querySelectorAll(".metric-text");
 
 // Light
 light.addEventListener("click", function () {
-//   body.className = '';  
-//   hero.className = '';  
-//   heroTitle.className = '';  
-//   input.className = '';  
-//   conSection.className = '';
+  body.classList.remove("dark", "green", "blue", "purple", "red", "yellow");
+  hero.classList.remove("dark", "green", "blue", "purple", "red", "yellow");
+  heroTitle.classList.remove(
+    "dark",
+    "green",
+    "blue",
+    "purple",
+    "red",
+    "yellow"
+  );
+  input.classList.remove("dark", "green", "blue", "purple", "red", "yellow");
+  conSection.classList.remove(
+    "dark",
+    "green",
+    "blue",
+    "purple",
+    "red",
+    "yellow"
+  );
 
   body.classList.toggle("light");
   hero.classList.toggle("light");
@@ -64,20 +78,43 @@ light.addEventListener("click", function () {
   conSection.classList.toggle("light");
 
   conBox.forEach((n) => {
+    n.classList.remove("dark", "green", "blue", "purple", "red", "yellow");
     n.classList.toggle("light");
   });
 
   conTitle.forEach((n) => {
+    n.classList.remove("dark", "green", "blue", "purple", "red", "yellow");
     n.classList.toggle("light");
   });
 
   metricText.forEach((n) => {
+    n.classList.remove("dark", "green", "blue", "purple", "red", "yellow");
     n.classList.toggle("light");
   });
 });
 
 // Dark
 dark.addEventListener("click", function () {
+  body.classList.remove("light", "green", "blue", "purple", "red", "yellow");
+  hero.classList.remove("light", "green", "blue", "purple", "red", "yellow");
+  heroTitle.classList.remove(
+    "light",
+    "green",
+    "blue",
+    "purple",
+    "red",
+    "yellow"
+  );
+  input.classList.remove("light", "green", "blue", "purple", "red", "yellow");
+  conSection.classList.remove(
+    "light",
+    "green",
+    "blue",
+    "purple",
+    "red",
+    "yellow"
+  );
+
   body.classList.toggle("dark");
   hero.classList.toggle("dark");
   heroTitle.classList.toggle("dark");
@@ -85,119 +122,223 @@ dark.addEventListener("click", function () {
   conSection.classList.toggle("dark");
 
   conBox.forEach((n) => {
+    n.classList.remove("light", "green", "blue", "purple", "red", "yellow");
     n.classList.toggle("dark");
   });
 
   conTitle.forEach((n) => {
+    n.classList.remove("light", "green", "blue", "purple", "red", "yellow");
     n.classList.toggle("dark");
   });
 
   metricText.forEach((n) => {
+    n.classList.remove("light", "green", "blue", "purple", "red", "yellow");
     n.classList.toggle("dark");
   });
 });
 
 // Green
 green.addEventListener("click", function () {
-    body.classList.toggle("green");
-    hero.classList.toggle("green");
-    heroTitle.classList.toggle("green");
-    input.classList.toggle("green");
-    conSection.classList.toggle("green");
-  
-    conBox.forEach((n) => {
-      n.classList.toggle("green");
-    });
-  
-    conTitle.forEach((n) => {
-      n.classList.toggle("green");
-    });
-  
-    metricText.forEach((n) => {
-      n.classList.toggle("green");
-    });
+  body.classList.remove("light", "dark", "blue", "purple", "red", "yellow");
+  hero.classList.remove("light", "dark", "blue", "purple", "red", "yellow");
+  heroTitle.classList.remove(
+    "light",
+    "dark",
+    "blue",
+    "purple",
+    "red",
+    "yellow"
+  );
+  input.classList.remove("light", "dark", "blue", "purple", "red", "yellow");
+  conSection.classList.remove(
+    "light",
+    "dark",
+    "blue",
+    "purple",
+    "red",
+    "yellow"
+  );
+
+  body.classList.toggle("green");
+  hero.classList.toggle("green");
+  heroTitle.classList.toggle("green");
+  input.classList.toggle("green");
+  conSection.classList.toggle("green");
+
+  conBox.forEach((n) => {
+    n.classList.remove("light", "dark", "blue", "purple", "red", "yellow");
+    n.classList.toggle("green");
   });
+
+  conTitle.forEach((n) => {
+    n.classList.remove("light", "dark", "blue", "purple", "red", "yellow");
+    n.classList.toggle("green");
+  });
+
+  metricText.forEach((n) => {
+    n.classList.remove("light", "dark", "blue", "purple", "red", "yellow");
+    n.classList.toggle("green");
+  });
+});
 
 // Blue
 blue.addEventListener("click", function () {
-    body.classList.toggle("blue");
-    hero.classList.toggle("blue");
-    heroTitle.classList.toggle("blue");
-    input.classList.toggle("blue");
-    conSection.classList.toggle("blue");
-  
-    conBox.forEach((n) => {
-      n.classList.toggle("blue");
-    });
-  
-    conTitle.forEach((n) => {
-      n.classList.toggle("blue");
-    });
-  
-    metricText.forEach((n) => {
-      n.classList.toggle("blue");
-    });
+  body.classList.remove("light", "green", "dark", "purple", "red", "yellow");
+  hero.classList.remove("light", "green", "dark", "purple", "red", "yellow");
+  heroTitle.classList.remove(
+    "light",
+    "green",
+    "dark",
+    "purple",
+    "red",
+    "yellow"
+  );
+  input.classList.remove("light", "green", "dark", "purple", "red", "yellow");
+  conSection.classList.remove(
+    "light",
+    "green",
+    "dark",
+    "purple",
+    "red",
+    "yellow"
+  );
+
+  body.classList.toggle("blue");
+  hero.classList.toggle("blue");
+  heroTitle.classList.toggle("blue");
+  input.classList.toggle("blue");
+  conSection.classList.toggle("blue");
+
+  conBox.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "purple", "red", "yellow");
+    n.classList.toggle("blue");
   });
+
+  conTitle.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "purple", "red", "yellow");
+    n.classList.toggle("blue");
+  });
+
+  metricText.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "purple", "red", "yellow");
+    n.classList.toggle("blue");
+  });
+});
 
 // Purple
 purple.addEventListener("click", function () {
-    body.classList.toggle("purple");
-    hero.classList.toggle("purple");
-    heroTitle.classList.toggle("purple");
-    input.classList.toggle("purple");
-    conSection.classList.toggle("purple");
-  
-    conBox.forEach((n) => {
-      n.classList.toggle("purple");
-    });
-  
-    conTitle.forEach((n) => {
-      n.classList.toggle("purple");
-    });
-  
-    metricText.forEach((n) => {
-      n.classList.toggle("purple");
-    });
+  body.classList.remove("light", "green", "dark", "blue", "red", "yellow");
+  hero.classList.remove("light", "green", "dark", "blue", "red", "yellow");
+  heroTitle.classList.remove("light", "green", "dark", "blue", "red", "yellow");
+  input.classList.remove("light", "green", "dark", "blue", "red", "yellow");
+  conSection.classList.remove(
+    "light",
+    "green",
+    "dark",
+    "blue",
+    "red",
+    "yellow"
+  );
+
+  body.classList.toggle("purple");
+  hero.classList.toggle("purple");
+  heroTitle.classList.toggle("purple");
+  input.classList.toggle("purple");
+  conSection.classList.toggle("purple");
+
+  conBox.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "blue", "red", "yellow");
+    n.classList.toggle("purple");
   });
+
+  conTitle.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "blue", "red", "yellow");
+    n.classList.toggle("purple");
+  });
+
+  metricText.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "blue", "red", "yellow");
+    n.classList.toggle("purple");
+  });
+});
 
 // Red
 red.addEventListener("click", function () {
-    body.classList.toggle("red");
-    hero.classList.toggle("red");
-    heroTitle.classList.toggle("red");
-    input.classList.toggle("red");
-    conSection.classList.toggle("red");
-  
-    conBox.forEach((n) => {
-      n.classList.toggle("red");
-    });
-  
-    conTitle.forEach((n) => {
-      n.classList.toggle("red");
-    });
-  
-    metricText.forEach((n) => {
-      n.classList.toggle("red");
-    });
+  body.classList.remove("light", "green", "dark", "blue", "purple", "yellow");
+  hero.classList.remove("light", "green", "dark", "blue", "purple", "yellow");
+  heroTitle.classList.remove(
+    "light",
+    "green",
+    "dark",
+    "blue",
+    "purple",
+    "yellow"
+  );
+  input.classList.remove("light", "green", "dark", "blue", "purple", "yellow");
+  conSection.classList.remove(
+    "light",
+    "green",
+    "dark",
+    "blue",
+    "purple",
+    "yellow"
+  );
+
+  body.classList.toggle("red");
+  hero.classList.toggle("red");
+  heroTitle.classList.toggle("red");
+  input.classList.toggle("red");
+  conSection.classList.toggle("red");
+
+  conBox.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "blue", "purple", "yellow");
+    n.classList.toggle("red");
   });
+
+  conTitle.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "blue", "purple", "yellow");
+    n.classList.toggle("red");
+  });
+
+  metricText.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "blue", "purple", "yellow");
+    n.classList.toggle("red");
+  });
+});
 
 // Yellow
 yellow.addEventListener("click", function () {
-    body.classList.toggle("yellow");
-    hero.classList.toggle("yellow");
-    heroTitle.classList.toggle("yellow");
-    input.classList.toggle("yellow");
-    conSection.classList.toggle("yellow");
-  
-    conBox.forEach((n) => {
-      n.classList.toggle("yellow");
-    });
-  
-    conTitle.forEach((n) => {
-      n.classList.toggle("yellow");
-    });
-  
-    metricText.forEach((n) => {
-      n.classList.toggle("yellow");
-    });
+  body.classList.remove("light", "green", "dark", "blue", "purple", "red");
+  hero.classList.remove("light", "green", "dark", "blue", "purple", "red");
+  heroTitle.classList.remove("light", "green", "dark", "blue", "purple", "red");
+  input.classList.remove("light", "green", "dark", "blue", "purple", "red");
+  conSection.classList.remove(
+    "light",
+    "green",
+    "dark",
+    "blue",
+    "purple",
+    "red"
+  );
+
+  body.classList.toggle("yellow");
+  hero.classList.toggle("yellow");
+  heroTitle.classList.toggle("yellow");
+  input.classList.toggle("yellow");
+  conSection.classList.toggle("yellow");
+
+  conBox.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "blue", "purple", "red");
+    n.classList.toggle("yellow");
   });
+
+  conTitle.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "blue", "purple", "red");
+    n.classList.toggle("yellow");
+  });
+
+  metricText.forEach((n) => {
+    n.classList.remove("light", "green", "dark", "blue", "purple", "red");
+    n.classList.toggle("yellow");
+  });
+});
