@@ -51,6 +51,12 @@ let metricText = document.querySelectorAll(".metric-text");
 
 // Light
 light.addEventListener("click", function () {
+//   body.className = '';  
+//   hero.className = '';  
+//   heroTitle.className = '';  
+//   input.className = '';  
+//   conSection.className = '';
+
   body.classList.toggle("light");
   hero.classList.toggle("light");
   heroTitle.classList.toggle("light");

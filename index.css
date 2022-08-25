@@ -329,9 +329,9 @@ body.purple {
 }
 
 input.purple {
-  background: #ede9fe;
+  background: #a78bfa;
   border: 2px solid #fff;
-  color: #000;
+  /* color: #000; */
 }
 
 input.purple:focus {
@@ -384,9 +384,9 @@ body.yellow {
 }
 
 input.yellow {
-  background: #fef3c7;
+  background: #fcd34d;
   border: 2px solid #fff;
-  color: #000;
+  /* color: #000; */
 }
 
 input.yellow:focus {
