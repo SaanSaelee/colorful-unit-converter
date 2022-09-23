@@ -130,10 +130,6 @@
   cursor: pointer;
 }
 
-.clr-btn {
-  border: 2px solid white;
-}
-
 .clr-btn:hover,
 .clr-btn:focus {
   opacity: 0.7;
@@ -189,7 +185,7 @@ body.light {
 }
 
 .container.light {
-  box-shadow: 0 0 40px darkgrey;
+  /* box-shadow: 0 0 40px darkgrey; */
 }
 
 #hero.light {
@@ -261,7 +257,7 @@ body.green {
 }
 
 .container.green {
-  box-shadow: 0 0 40px darkgrey;
+  /* box-shadow: 0 0 40px darkgrey; */
 }
 
 #hero.green {
@@ -292,7 +288,7 @@ body.blue {
 }
 
 .container.blue {
-  box-shadow: 0 0 40px darkgrey;
+  /* box-shadow: 0 0 40px darkgrey; */
 }
 
 #hero.blue {
@@ -323,7 +319,7 @@ body.purple {
 }
 
 .container.purple {
-  box-shadow: 0 0 40px darkgrey;
+  /* box-shadow: 0 0 40px darkgrey; */
 }
 
 #hero.purple {
@@ -355,7 +351,7 @@ body.red {
 }
 
 .container.red {
-  box-shadow: 0 0 40px darkgrey;
+  /* box-shadow: 0 0 40px darkgrey; */
 }
 
 #hero.red {
@@ -386,7 +382,7 @@ body.yellow {
 }
 
 .container.yellow {
-  box-shadow: 0 0 40px darkgrey;
+  /* box-shadow: 0 0 40px darkgrey; */
 }
 
 #hero.yellow {
@@ -414,7 +410,9 @@ input.yellow:focus {
 /* *********************************  small screens only  ************************************ */
 
 @media screen {
+
   .hero__title {
     font-size: 1.8rem;
   }
+
 }

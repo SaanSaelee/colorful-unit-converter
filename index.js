@@ -39,7 +39,7 @@ let purple = document.querySelector(".clr-purple");
 let red = document.querySelector(".clr-red");
 let yellow = document.querySelector(".clr-yellow");
 
-// Body Elements
+// body Elements
 let body = document.getElementById("body");
 let container = document.querySelector(".container");
 let hero = document.getElementById("hero");
