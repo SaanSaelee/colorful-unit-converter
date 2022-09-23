@@ -14,6 +14,10 @@
   /* overflow: hidden; */
 }
 
+body {
+  letter-spacing: 1px;
+}
+
 #main {
   color: #fff;
   display: flex;
@@ -83,7 +87,7 @@
   background: #ffffff;
   border: none;
   cursor: pointer;
-  color: var(--gray-light)
+  color: var(--gray-light);
 }
 
 .convert-btn:active {
@@ -91,24 +95,22 @@
 }
 
 #con-section {
-  background: var(--gray-dark);
-  /* height: 444px; */
-  width: 100%;
-  padding: 25px;
-  border-radius: 0 0 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: var(--gray-dark);
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+  padding: 25px;
 }
 
 .con-box {
-  background: var(--gray-light);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100%;
-  padding: 10px;
+  background: var(--gray-light);
   border-radius: 10px;
+  padding: 10px;
 }
 
 .con-box + .con-box {
@@ -415,8 +417,12 @@ input.yellow:focus {
 
 /* *********************************  small screens only  ************************************ */
 
-@media screen {
+@media only screen and (max-width: 420px) {
   .hero__title {
-    font-size: 1.8rem;
+    font-size: 1.25rem;
+  }
+
+  #con-section {
+    font-size: 0.85rem;
   }
 }
