@@ -30,7 +30,7 @@ convertBtn.addEventListener("click", function () {
   massEl.textContent = `${userInput} kilo = ${kiloToFixed} pound | ${userInput} pound = ${poundToFixed} kilo`;
 });
 
-// Color Swatch
+// Color Swatches
 let light = document.querySelector(".clr-light");
 let dark = document.querySelector(".clr-dark");
 let green = document.querySelector(".clr-green");
@@ -39,8 +39,8 @@ let purple = document.querySelector(".clr-purple");
 let red = document.querySelector(".clr-red");
 let yellow = document.querySelector(".clr-yellow");
 
-// body Elements
-let body = document.getElementById("body");
+// Body Elements
+let main = document.getElementById("main");
 let container = document.querySelector(".container");
 let hero = document.getElementById("hero");
 let heroTitle = document.querySelector(".hero__title");
@@ -52,7 +52,7 @@ let metricText = document.querySelectorAll(".metric-text");
 
 // Light
 light.addEventListener("click", function () {
-  body.classList.remove("dark", "green", "blue", "purple", "red", "yellow");
+  main.classList.remove("dark", "green", "blue", "purple", "red", "yellow");
   container.classList.remove(
     "dark",
     "green",
@@ -80,7 +80,7 @@ light.addEventListener("click", function () {
     "yellow"
   );
 
-  body.classList.toggle("light");
+  main.classList.toggle("light");
   container.classList.toggle("light");
   hero.classList.toggle("light");
   heroTitle.classList.toggle("light");
@@ -105,7 +105,7 @@ light.addEventListener("click", function () {
 
 // Dark
 dark.addEventListener("click", function () {
-  body.classList.remove("light", "green", "blue", "purple", "red", "yellow");
+  main.classList.remove("light", "green", "blue", "purple", "red", "yellow");
   container.classList.remove(
     "light",
     "green",
@@ -133,7 +133,7 @@ dark.addEventListener("click", function () {
     "yellow"
   );
 
-  body.classList.toggle("dark");
+  main.classList.toggle("dark");
   hero.classList.toggle("dark");
   heroTitle.classList.toggle("dark");
   input.classList.toggle("dark");
@@ -157,7 +157,7 @@ dark.addEventListener("click", function () {
 
 // Green
 green.addEventListener("click", function () {
-  body.classList.remove("light", "dark", "blue", "purple", "red", "yellow");
+  main.classList.remove("light", "dark", "blue", "purple", "red", "yellow");
   container.classList.remove(
     "light",
     "dark",
@@ -185,7 +185,7 @@ green.addEventListener("click", function () {
     "yellow"
   );
 
-  body.classList.toggle("green");
+  main.classList.toggle("green");
   container.classList.toggle("green");
   hero.classList.toggle("green");
   heroTitle.classList.toggle("green");
@@ -210,7 +210,7 @@ green.addEventListener("click", function () {
 
 // Blue
 blue.addEventListener("click", function () {
-  body.classList.remove("light", "green", "dark", "purple", "red", "yellow");
+  main.classList.remove("light", "green", "dark", "purple", "red", "yellow");
   container.classList.remove(
     "light",
     "green",
@@ -238,7 +238,7 @@ blue.addEventListener("click", function () {
     "yellow"
   );
 
-  body.classList.toggle("blue");
+  main.classList.toggle("blue");
   container.classList.toggle("blue");
   hero.classList.toggle("blue");
   heroTitle.classList.toggle("blue");
@@ -263,7 +263,7 @@ blue.addEventListener("click", function () {
 
 // Purple
 purple.addEventListener("click", function () {
-  body.classList.remove("light", "green", "dark", "blue", "red", "yellow");
+  main.classList.remove("light", "green", "dark", "blue", "red", "yellow");
   container.classList.remove("light", "green", "dark", "blue", "red", "yellow");
   hero.classList.remove("light", "green", "dark", "blue", "red", "yellow");
   heroTitle.classList.remove("light", "green", "dark", "blue", "red", "yellow");
@@ -277,7 +277,7 @@ purple.addEventListener("click", function () {
     "yellow"
   );
 
-  body.classList.toggle("purple");
+  main.classList.toggle("purple");
   container.classList.toggle("purple");
   hero.classList.toggle("purple");
   heroTitle.classList.toggle("purple");
@@ -302,7 +302,7 @@ purple.addEventListener("click", function () {
 
 // Red
 red.addEventListener("click", function () {
-  body.classList.remove("light", "green", "dark", "blue", "purple", "yellow");
+  main.classList.remove("light", "green", "dark", "blue", "purple", "yellow");
   container.classList.remove(
     "light",
     "green",
@@ -330,7 +330,7 @@ red.addEventListener("click", function () {
     "yellow"
   );
 
-  body.classList.toggle("red");
+  main.classList.toggle("red");
   container.classList.toggle("red");
   hero.classList.toggle("red");
   heroTitle.classList.toggle("red");
@@ -355,7 +355,7 @@ red.addEventListener("click", function () {
 
 // Yellow
 yellow.addEventListener("click", function () {
-  body.classList.remove("light", "green", "dark", "blue", "purple", "red");
+  main.classList.remove("light", "green", "dark", "blue", "purple", "red");
   container.classList.remove("light", "green", "dark", "blue", "purple", "red");
   hero.classList.remove("light", "green", "dark", "blue", "purple", "red");
   heroTitle.classList.remove("light", "green", "dark", "blue", "purple", "red");
@@ -369,7 +369,7 @@ yellow.addEventListener("click", function () {
     "red"
   );
 
-  body.classList.toggle("yellow");
+  main.classList.toggle("yellow");
   container.classList.toggle("yellow");
   hero.classList.toggle("yellow");
   heroTitle.classList.toggle("yellow");

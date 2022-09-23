@@ -180,7 +180,7 @@
 
 /* Light Swatch */
 
-body.light {
+#main.light {
   background: #fff;
 }
 
@@ -218,7 +218,7 @@ input.light:focus {
 
 /* Dark Swatch */
 
-body.dark {
+#main.dark {
   background: #000;
 }
 
@@ -252,7 +252,7 @@ input.dark:focus {
 
 /* Green Swatch */
 
-body.green {
+#main.green {
   background: #d1fae5;
 }
 
@@ -283,7 +283,7 @@ input.green:focus {
 
 /* Blue Swatch */
 
-body.blue {
+#main.blue {
   background: #e0f2fe;
 }
 
@@ -314,7 +314,7 @@ input.blue:focus {
 
 /* Purple Swatch */
 
-body.purple {
+#main.purple {
   background: #ede9fe;
 }
 
@@ -346,7 +346,7 @@ input.purple:focus {
 
 /* Red Swatch */
 
-body.red {
+#main.red {
   background: #ffe4e6;
 }
 
@@ -377,7 +377,7 @@ input.red:focus {
 
 /* Yellow Swatch */
 
-body.yellow {
+#main.yellow {
   background: #fef3c7;
 }
 
