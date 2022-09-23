@@ -417,7 +417,7 @@ input.yellow:focus {
 
 /* *********************************  small screens only  ************************************ */
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 520px) {
   .hero__title {
     font-size: 1.25rem;
   }
