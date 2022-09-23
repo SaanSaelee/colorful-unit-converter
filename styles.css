@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 
-body {
+#main {
   font-family: "Roboto", sans-serif;
   background: #000;
   color: #fff;
@@ -21,12 +21,13 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 2em;
 }
 
 .container {
-  width: 70%;
   max-width: 780px;
-  margin: 20px auto;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -404,4 +405,14 @@ input.yellow:focus {
 
 .con-title.yellow {
   color: #fde68a;
+}
+
+/* *********************************  small screens only  ************************************ */
+
+@media screen {
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
 }
